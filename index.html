@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SocialBlue</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">socialblue</div>
+    <div class="search-wrap">
+      <input type="search" placeholder="Search SocialBlue" aria-label="Search" />
+    </div>
+    <nav class="actions" aria-label="Primary">
+      <button>Home</button>
+      <button>Friends</button>
+      <button>Watch</button>
+      <button>Marketplace</button>
+      <button>Profile</button>
+    </nav>
+  </header>
+
+  <main class="layout">
+    <aside class="left-col card">
+      <h2>Menu</h2>
+      <ul>
+        <li>Feed</li>
+        <li>Events</li>
+        <li>Memories</li>
+        <li>Groups</li>
+        <li>Saved</li>
+      </ul>
+    </aside>
+
+    <section class="center-col">
+      <article class="card composer">
+        <h2>Create Post</h2>
+        <textarea rows="3" placeholder="What's on your mind?"></textarea>
+        <div class="composer-actions">
+          <button>Photo/Video</button>
+          <button>Tag Friends</button>
+          <button>Feeling/Activity</button>
+        </div>
+      </article>
+
+      <article class="card post">
+        <header>
+          <div>
+            <h3>Jamie Carter</h3>
+            <p>2 hrs · Public</p>
+          </div>
+        </header>
+        <p>Just launched our community meetup page! Excited to connect with everyone this weekend 🎉</p>
+        <div class="post-media">Image preview</div>
+        <footer>
+          <button>Like</button>
+          <button>Comment</button>
+          <button>Share</button>
+        </footer>
+      </article>
+
+      <article class="card post">
+        <header>
+          <div>
+            <h3>Taylor Kim</h3>
+            <p>5 hrs · Friends</p>
+          </div>
+        </header>
+        <p>Morning trail run was worth the 6am alarm. Anyone up for a group run tomorrow?</p>
+        <footer>
+          <button>Like</button>
+          <button>Comment</button>
+          <button>Share</button>
+        </footer>
+      </article>
+    </section>
+
+    <aside class="right-col card">
+      <h2>Contacts</h2>
+      <ul>
+        <li>Alex Nguyen</li>
+        <li>Priya Patel</li>
+        <li>Jordan Lee</li>
+        <li>Chris Moore</li>
+        <li>Avery Brooks</li>
+      </ul>
+    </aside>
+  </main>
+</body>
+</html>
